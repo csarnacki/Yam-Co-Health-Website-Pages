@@ -1,0 +1,353 @@
+<! DOCTYPE html>
+<html>
+<div id="wrapper">
+	
+	<div id="head_style">
+		<head>
+			<title>Health Services | Yam-Co Health | Health care in Yamhill County</title>
+			<link href="health.css" rel="stylesheet">
+			<h1><a href="home.html">Yam-Co Health</a></h1>
+			
+				<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+				
+				<div id="id01" class="modal">
+					<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
+				
+				<form class="modal_content">
+					<div class="container">
+						<h1>Sign Up</h1>
+						<p>Please fill in this form to create an account.</p>
+						<hr>
+						<label for="email"><b>Email</b></label>
+						<input type="text" placeholder="Enter Email" name="email" required>
+
+						<label for="psw"><b>Password</b></label>
+						<input type="password" placeholder="Enter Password" name="psw" required>
+
+						<label for="psw-repeat"><b>Repeat Password</b></label>
+						<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+						<label>
+						<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+						</label>
+						<div class="clearfix">
+							<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+							<button type="submit" class="signupbtn">Sign Up</button>
+						</div>	
+					</div>
+				</div>
+					
+				<script>
+				var modal = document.getElementById('id01');
+				
+				window.onclick = function(event) {
+					if (event.target == modal) {
+						modal.style.display = "none";
+					}
+				}	
+				</script>
+					
+					
+				</form>
+				
+				<div id="search-bar">
+					<form>
+						<input type="text" placeholder="Search" >
+					</form>
+				</div>
+		</head>
+	
+		<nav>
+			<b><a href="find.html">Find a Doctor</a></b> &nbsp&nbsp <b><a href="locations.html">Locations</a></b> &nbsp&nbsp <b><a href="services.html">Health Care Service</a></b>
+		</nav>
+	</div>
+	
+	<body>
+	<img src="health_service.jpg" alt="a doctor listening to a patient's heartbeat" height="600px" width="1600px">
+		<form action="submission.html" method="POST">
+			<div id="neuro_locations">
+				<section class="neuro_location">
+					<div id="neuro_service">
+						<label for="neuro_service_location">Neurology</label>
+					</div>
+				<section class="neuro_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Neurology locations</option>
+						<option value="Amity">Amity</option>
+						<option value="Dayton">Dayton</option>
+						<option value="Dundee">Dundee</option>
+						<option value="Newberg">Newberg</option>
+					</select>
+				</section>
+			</div>
+			<div id="cardio_locations">
+				<section class="cardio_location">
+					<div id="cardio_service">
+						<label for="cardio_service_location">Cardiology</label>
+					</div>
+				<section class="cardio_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Cardiology locations</option>
+						<option value="Amity">Amity</option>
+						<option value="McMinnville">McMinnville</option>
+						<option value="Newberg">Newberg</option>
+						<option value="Sheridan">Sheridan</option>
+						<option value="Yamhill">Yamhill</option>
+					</select>
+				</section>
+			</div>
+			<div id="pulmo_locations">
+				<section class="pulmo_location">
+					<div id="pulmo_service">
+						<label for="pulmo_service_location">Pulmonary</label>
+					</div>
+				<section class="pulmo_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Pulmonary locations</option>
+						<option value="Carlton">Carlton</option>
+						<option value="Dayton">Dayton</option>
+						<option value="Lafayette">Lafayette</option>
+						<option value="Sheridan">Sheridan</option>
+						<option value="Yamhill">Yamhill</option>
+					</select>
+				</section>
+			</div>
+			<div id="urology_locations">
+				<section class="urology_location">
+					<div id="urology_service">
+						<label for="urology_service_location">Urology</label>
+					</div>
+				<section class="urology_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Urology locations</option>
+						<option value="McMinnville">McMinnville</option>
+						<option value="Newberg">Newberg</option>
+						<option value="Willamina">Willamina</option>
+						<option value="Yamhill">Yamhill</option>
+					</select>
+				</section>
+			</div>
+			<div id="gyno_locations">
+				<section class="gyno_location">
+					<div id="gyno_service">
+						<label for="gyno_service_location">Gynecology & Obstetrics</label>
+					</div>
+				<section class="gyno_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Gynecology locations</option>
+						<option value="Amity">Amity</option>
+						<option value="Carlton">Carlton</option>
+						<option value="Dayton">Dayton</option>
+						<option value="Dundee">Dundee</option>
+						<option value="McMinnville">McMinnville</option>
+						<option value="Sheridan">Sheridan</option>
+					</select>
+				</section>
+			</div>
+			<div id="musculo_locations">
+				<section class="musculo_location">
+					<div id="musculo_service">
+						<label for="musculo_service_location">Skeletal & Muscular Pain</label>
+					</div>
+				<section class="musculo_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Muscular locations</option>
+						<option value="Carlton">Carlton</option>
+						<option value="McMinnville">McMinnville</option>
+						<option value="Newberg">Newberg</option>
+						<option value="Yamhill">Yamhill</option>
+					</select>
+				</section>
+			</div>
+			<div id="onco_locations">
+				<section class="onco_location">
+					<div id="onco_service">
+						<label for="onco_service_location">Oncology</label>
+					</div>
+				<section class="onco_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Oncology locations</option>
+						<option value="Dayton">Dayton</option>
+						<option value="McMinnville">McMinnville</option>
+						<option value="Sheridan">Sheridan</option>
+						<option value="Willamina">Willamina</option>
+						<option value="Yamhill">Yamhill</option>
+					</select>
+				</section>
+			</div>
+			<div id="nutri_locations">
+				<section class="nutri_location">
+					<div id="nutri_service">
+						<label for="nutri_service_location">Diabetes & Nutrition</label>
+					</div>
+				<section class="nutri_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Diabetic locations</option>
+						<option value="Dundee">Dundee</option>
+						<option value="Newberg">Newberg</option>
+						<option value="Willamina">Willamina</option>
+					</select>
+				</section>
+			</div>
+			<div id="surg_locations">
+				<section class="surg_location">
+					<div id="surg_service">
+						<label for="surg_service_location">Emergency Procedures</label>
+					</div>
+				<section class="surg_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Surgery locations</option>
+						<option value="Amity">Amity</option>
+						<option value="Carlton">Carlton</option>
+						<option value="Dayton">Dayton</option>
+						<option value="McMinnville">McMinnville</option>
+						<option value="Newberg">Newberg</option>
+						<option value="Sheridan">Sheridan</option>
+						<option value="Willamina">Willamina</option>
+					</select>
+				</section>
+			</div>
+			<div id="lab_locations">
+				<section class="lab_location">
+					<div id="lab_service">
+						<label for="lab_service_location">Lab</label>
+					</div>
+				<section class="lab_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Lab locations</option>
+						<option value="Carlton">Carlton</option>
+						<option value="McMinnville">McMinnville</option>
+						<option value="Sheridan">Sheridan</option>
+						<option value="Yamhill">Yamhill</option>
+					</select>
+				<section>
+			</div>
+			<div id="img_locations">
+				<section class="img_location">
+					<div id="img_service">
+						<label for="img_service_location">Imaging</label>
+					</div>
+				<section class="img_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Imaging locations</option>
+						<option value="Amity">Amity</option>
+						<option value="Carlton">Carlton</option>
+						<option value="Dundee">Dundee</option>
+						<option value="Newberg">Newberg</option>
+						<option value="Willamina">Willamina</option>
+						<option value="Yamhill">Yamhill</option>
+					</select>
+				</section>
+			</div>
+			<div id="joint_locations">
+				<section class="joint_location">
+					<div id="joint_service">
+						<label for="joint_service_location">Joint Replacement</label>
+					</div>
+				<section class="joint_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Joint replacement locations</option>
+						<option value="Carlton">Carlton</option>
+						<option value="Dayton">Dayton</option>
+						<option value="Sheridan">Sheridan</option>
+					</select>
+				</section>
+			</div>
+			<div id="sleep_locations">
+				<section class="sleep_location">
+					<div id="sleep_service">
+						<label for="sleep_service_location">Sleep</label>
+					</div>
+				<section class="sleep_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Sleep locations</option>
+						<option value="Amity">Amity</option>
+						<option value="McMinnville">McMinnville</option>
+						<option value="Newberg">Newberg</option>
+					</select>
+				</section>
+			</div>
+			<div id="ped_locations">
+				<section class="ped_location">
+					<div id="ped_service">
+						<label for="ped_service_location">Pediatrics</label>
+					</div>
+				<section class="ped_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Pediatric locations</option>
+						<option value="Newberg">Newberg</option>
+						<option value="Sheridan">Sheridan</option>
+						<option value="Willamina">Willamina</option>
+						<option value="Yamhill">Yamhill</option>
+					</select>
+				</section>
+			</div>
+			<div id="pt_locations">
+				<section class="pt_location">
+					<div id="pt_service">
+						<label for="pt_service_location">Physical Therapy</label>
+					</div>
+				<section class="pt_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Physical therapy locations</option>
+						<option value="Dayton">Dayton</option>
+						<option value="McMinnville">McMinnville</option>
+						<option value="Newberg">Newberg</option>
+						<option value="Sheridan">Sheridan</option>
+						<option value="Willamina">Willamina</option>
+						<option value="Yamhill">Yamhill</option>
+					</select>
+				</section>
+			</div>
+			<div id="rx_locations">
+				<section class="rx_location">
+					<div id="rx_service">
+						<label for="rx_service_location">Pharmacy Care</label>
+					</div>
+				<section class="rx_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Pharmacy care locations</option>
+						<option value="Amity">Amity</option>
+						<option value="Carlton">Carlton</option>
+						<option value="Dundee">Dundee</option>
+						<option value="Yamhill">Yamhill</option>
+					</select>
+				</section>
+			</div>
+			<div id="occu_locations">
+				<section class="occu_location">
+					<div id="occu_service">
+						<label for="occu_service_location">Occupational Medicine</label>
+					</div>
+				<section class="occu_service_location">
+					<select name="service_location" id="service_location">
+						<option value="location">Occupational locations</option>
+						<option value="Amity">Amity</option>
+						<option value="Carlton">Carlton</option>
+						<option value="Dayton">Dayton</option>
+						<option value="McMinnville">McMinnville</option>
+						<option value="Newberg">Newberg</option>
+						<option value="Sheridan">Sheridan</option>
+						<option value="Willamina">Willamina</option>
+					</select>
+				</section>
+			</div>
+	</body>
+	
+	<footer>
+	<div id="footer_info">
+		<p>Connect With Us</p>
+	</div>
+		<a href="https://www.facebook.com/">
+			<img src="facebook_logo.png" alt="Facebook logo" height="60px" width="60px">
+		</a>
+		<a href="https://www.instagram.com/">
+			<img src="instagram_logo.png" alt="Instagram logo" height="60px" width="60px">
+		</a>
+		<a href="https://twitter.com/?lang=en">
+			<img src="twitter_logo.jpg" alt="Twitter logo" height="60px" width="60px">
+		</a>
+	</footer>
+	
+</div>
+</html>

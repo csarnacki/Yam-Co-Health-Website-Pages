@@ -1,0 +1,144 @@
+<! DOCTYPE html>
+<html>
+<div id="wrapper">
+	
+	<div id="head_style">
+		<head>
+			<title>Find Doctors | Yam-Co Health | Health care in Yamhill County</title>
+			<link href="health.css" rel="stylesheet">
+			<h1><a href="home.html">Yam-Co Health</a></h1>
+			
+				<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+				
+				<div id="id01" class="modal">
+					<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
+				
+				<form class="modal_content">
+					<div class="container">
+						<h1>Sign Up</h1>
+						<p>Please fill in this form to create an account.</p>
+						<hr>
+						<label for="email"><b>Email</b></label>
+						<input type="text" placeholder="Enter Email" name="email" required>
+
+						<label for="psw"><b>Password</b></label>
+						<input type="password" placeholder="Enter Password" name="psw" required>
+
+						<label for="psw-repeat"><b>Repeat Password</b></label>
+						<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+						<label>
+						<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+						</label>
+						<div class="clearfix">
+							<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+							<button type="submit" class="signupbtn">Sign Up</button>
+						</div>	
+					</div>
+				</div>
+					
+				<script>
+				var modal = document.getElementById('id01');
+				
+				window.onclick = function(event) {
+					if (event.target == modal) {
+						modal.style.display = "none";
+					}
+				}	
+				</script>
+					
+					
+				</form>
+				
+				<div id="search-bar">
+					<form>
+						<input type="text" placeholder="Search">
+					</form>
+				</div>
+		</head>
+	
+	<nav>
+		<b><a href="find.html">Find a Doctor</a></b> &nbsp&nbsp <b><a href="locations.html">Locations</a></b> &nbsp&nbsp <b><a href="services.html">Health Care Service</a></b>
+	</nav>
+	</div>
+	
+	<body>
+	<p>
+		<section class="home-search">
+			<div id="search_label">
+				<label for="search terms">Search for a health provider by typing out name, speciality area or location.</label>
+			</div>
+				<div id="search_provider">
+					<form>
+						<input type="text" placeholder="Enter search terms here">
+					</form>
+				</div>
+		</section>
+	</p>
+		<div id="form">
+			<form action="submission.html" method="POST">
+			<section class="doctor-gender">
+				<div id="doctor_label">
+					<label for="doctor_search">Select any of the following options to view results.</label>
+				</div>
+				<select name="gender" id="gender">
+					<option value="gender">Gender</option>
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="No preference">No preference</option>
+				</select>
+			</section>
+			<section class="doctor-location">
+				<select name="location" id="location">
+					<option value="location">Location</option>
+					<option value="Newberg">Newberg</option>
+					<option value="McMinnville">McMinnville</option>
+					<option value="Amity">Amity</option>
+					<option value="Dayton">Dayton</option>
+					<option value="Yamhill">Yamhill</option>
+					<option value="Carlton">Carlton</option>
+					<option value="Sheridan">Sheridan</option>
+					<option value="Dundee">Dundee</option>
+					<option value="Lafayette">Lafayette</option>
+					<option value="Willamina">Willamina</option>
+				</select>
+			</section>
+			<section class="doctor-services">
+				<select name="specialty" id="specialty">
+					<option value="specialty/area of practice">Specialty/Area of Practice</option>
+					<option value="cardiology">Cardiology</option>
+					<option value="pulmonary">Pulmonary</option>
+					<option value="neurology">Neurology</option>
+					<option value="gastroenterology">Gastroenterology</option>
+					<option value="gynecology/obstetrics">Gynecology / Obstetrics</option>
+					<option value="urinary">Urinary</option>
+					<option value="physical-therapy">Physical Therapy</option>
+					<option value="other">Other</option>
+				</select>
+			</section>
+			</form>
+		</div>
+		
+		<div id="doctor_button">
+			<button onclick="alert('Thank you for your submission!').style.display='block'" style="width:auto;">Find Doctor</button>
+		</div>
+		
+	</body>
+		
+	<footer>
+	<div id="footer_info">
+		<p>Connect With Us</p>
+	</div>
+		<a href="https://www.facebook.com/">
+			<img src="facebook_logo.png" alt="Facebook logo" height="60px" width="60px">
+		</a>
+		<a href="https://www.instagram.com/">
+			<img src="instagram_logo.png" alt="Instagram logo" height="60px" width="60px">
+		</a>
+		<a href="https://twitter.com/?lang=en">
+			<img src="twitter_logo.jpg" alt="Twitter logo" height="60px" width="60px">
+		</a>
+	</footer>
+	
+</div>
+</html>

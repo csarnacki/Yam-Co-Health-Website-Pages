@@ -1,0 +1,495 @@
+#wrapper {
+	text-align: center;
+}
+
+#head_style {
+	background-color:#b3e6cc;
+}
+
+#search-bar{
+	position: absolute;
+	margin-top: -65px;
+	margin-left: 1400px;
+}
+
+#search-bar input {
+	height: 30px;
+	width: 250px;
+	font-size: 16px;
+	background-color: #f2e6ff;
+}
+
+#search_label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	padding-top: 2em;
+}
+
+#covid {
+	text-align: center;
+	font-size: 20px;
+	margin-left: 500px;
+	margin-right: 500px;
+}
+
+#covid_info {
+	text-align: center;
+	font-size: 20px;
+	margin-left: 500px;
+	margin-right: 500px;
+}
+
+#covid_symptoms {
+	text-align: center;
+	font-size: 20px;
+	margin-left: 500px;
+	margin-right: 500px;
+	padding-bottom: 3em;
+}
+
+#footer_info {
+	position: relative;
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: -70px;
+	margin-right: 500px;
+	margin-left: 30px;
+	font-size: 28px;
+	font-style: italic;
+}
+
+#form {
+	padding-bottom: 2em;
+}
+
+#search_provider {
+	padding-top: 5px;
+	padding-bottom: 40px;
+}
+
+#search_provider input {
+	height: 40px;
+	width: 600px;
+	font-size: 14px;
+}
+
+#search_provider {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: -17px;
+}
+
+#doctor_label {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin-left: 645px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+#gender {
+	height:40px;
+	width: 600px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+#location {
+	height: 40px;
+	width: 600px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+#specialty {
+	height: 40px;
+	width: 600px;
+	font-size: 16px;
+}
+
+.map_photo {
+	position: relative;
+	margin-left: 250px;
+	margin-top: -250px;
+	padding-bottom: 5em;
+}
+
+.clinic_location {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin-left: 550px;
+	padding-top: 4em;
+	padding-bottom: 5em;
+}
+
+.clinic_title {
+	font-size: 24px;
+	margin-bottom: -10px;
+}
+
+.clinic_contact {
+	font-size: 22px;
+}
+
+#neuro_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 600px;
+	padding-bottom: 5px;
+	padding-top: 3em;
+	font-size: 20px;
+}
+
+#cardio_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 850px;
+	margin-top: -50px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+#pulmo_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 1100px;
+	margin-top: -50px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+#urology_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 600px;
+	padding-bottom: 5px;
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+#gyno_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 850px;
+	margin-top: -50px;
+	padding-bottom: 5px;
+	margin-top: -50px;
+	font-size: 20px;
+}
+
+#musculo_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 1100px;
+	margin-top: -50px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+#onco_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 600px;
+	padding-bottom: 5px;
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+#nutri_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 850px;
+	margin-top: -50px;
+	padding-bottom: 5px;
+	margin-top: -50px;
+	font-size: 20px;
+}
+
+#surg_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 1100px;
+	margin-top: -50px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+#lab_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 600px;
+	padding-bottom: 5px;
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+#img_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 850px;
+	margin-top: -50px;
+	padding-bottom: 5px;
+	margin-top: -50px;
+	font-size: 20px;
+}
+
+#joint_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 1100px;
+	margin-top: -50px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+#sleep_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 600px;
+	padding-bottom: 5px;
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+#ped_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 850px;
+	margin-top: -50px;
+	padding-bottom: 5px;
+	margin-top: -50px;
+	font-size: 20px;
+}
+
+#pt_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 1100px;
+	margin-top: -50px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+#rx_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 600px;
+	padding-bottom: 5px;
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+#occu_locations {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	text-align: left;
+	margin-left: 850px;
+	margin-top: -50px;
+	padding-bottom: 5em;
+	margin-top: -50px;
+	font-size: 20px;
+}
+
+#service_location {
+	font-size: 16px;
+}
+
+#doctor_button {
+	margin-left: 800px;
+	margin-bottom: 20px;
+	padding-top: -5em;
+	padding-bottom: 5em;
+}
+
+h1 :visited {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #6f00e6;
+}
+
+h1 :active {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #6f00e6;
+}
+
+h1 :link {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #6f00e6;
+}
+
+nav :visited {
+	text-decoration: none;
+	color: #6f00e6;
+}
+
+nav :active  {
+	text-decoration: none;
+	color: #6f00e6;
+}
+
+nav :link {
+	text-decoration: none;
+	color: #6f00e6;
+}
+
+nav :hover {
+	text-decoration: underline;
+	color: #6f00e6;
+}
+
+footer {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding-bottom: 62px;
+	padding-top: -30px;
+	margin-left: 200px;
+	margin-bottom: 60px;
+	margin-top: 40px;
+	position: relative;
+	z-index: 1;
+	margin: 0px;
+	background-color: #b3e6cc;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-right: 800px;
+	margin-top: 0;
+	font-size: 48px;
+	color: #6f00e6;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 24px;
+	color: #39ac71;
+}
+
+nav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	padding-bottom: 1em;
+}
+
+hr {
+	width: 50%;
+}
+
+button {
+  background-color: #39ac71;
+  margin-left: -800px;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.modal {
+  display: none; 
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed; 
+  z-index: 1; 
+  margin-left: 600px;
+  margin-top: 30px;
+  width: 40%; 
+  height: 60%; 
+  overflow: auto; 
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 70%; 
+}
+
+* {box-sizing: border-box;}
+
+.container {
+  padding: 16px;
+  color: #f2f2f2;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.cancelbtn {
+  width: 50%;
+  float: left;
+  margin-left: 1px;
+}
+
+.signupbtn {
+	width: 50%;
+	float: right;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
