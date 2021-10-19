@@ -1,1 +1,105 @@
+<! DOCTYPE html>
+<html>
+<div id="wrapper">
+	
+	<div id="head_style">
+		<head>
+			<title>Yam-Co Health | Health care in Yamhill County</title>
+			<link href="health.css" rel="stylesheet">
+			<h1><a href="home.html">Yam-Co Health</a></h1>
+			
+				<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+				
+				<div id="id01" class="modal">
+					<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
+				
+				<form class="modal_content">
+					<div class="container">
+						<h1>Sign Up</h1>
+						<p>Please fill in this form to create an account.</p>
+						<hr>
+						<label for="email"><b>Email</b></label>
+						<input type="text" placeholder="Enter Email" name="email" required>
 
+						<label for="psw"><b>Password</b></label>
+						<input type="password" placeholder="Enter Password" name="psw" required>
+
+						<label for="psw-repeat"><b>Repeat Password</b></label>
+						<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+						<label>
+						<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+						</label>
+						<div class="clearfix">
+							<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+							<button type="submit" class="signupbtn">Sign Up</button>
+						</div>	
+					</div>
+				</div>
+					
+				<script>
+				var modal = document.getElementById('id01');
+				
+				window.onclick = function(event) {
+					if (event.target == modal) {
+						modal.style.display = "none";
+					}
+				}	
+				</script>
+					
+					
+				</form>
+	  
+				<div id="search-bar">
+					<form>
+						<input type="text" placeholder="Search" >
+					</form>
+				</div>
+		</head>
+	
+	<nav>
+		<b><a href="find.html">Find a Doctor</a></b> &nbsp&nbsp <b><a href="locations.html">Locations</a></b> &nbsp&nbsp <b><a href="services.html">Health Care Service</a></b>
+	</nav>
+	</div>
+	
+	<body>
+		<img src="doctors.jpg" alt="Doctors and nurses in a hospital" height="600px" width="1800px">
+		<h3>Worried About Coronavirus?</h3>
+		<div id="covid">
+			<p>For the most up-to-date information about coronavirus disease 2019, also known as COVID-19, visit the <b><a href="https://www.oregon.gov/oha/Pages/index.aspx">Oregon Health Authority</a></b> and <b><a href="https://www.cdc.gov/">Centers for Disease Control and Prevention</a></b>.
+				Both organizations offer a daily email newsletter, and OHA also has a general information hotline that can be reached by dialing 211.
+				If you are experiencing a medical emergency, call 911 or go to the nearest emergency department.</p>
+		</div>
+		<div id="covid_info">
+			<h3>If You Suspect You Have COVID-19</h3>
+			<p>Call the COVID-19 hotline at
+				555-555-5555. 
+				<br>
+				Please do not go to your doctor's office, an urgent care clinic or the emergency room without calling first.</p>
+		</div>
+		<div id="covid_symptoms">
+			<h3>COVID-19 Symptoms</h3>
+			<p>
+				COVID-19 may cause fever, cough or difficulty breathing. A majority of people who get the virus will have only mild symptoms.
+				People at risk for more significant symptoms includes the elderly and those with pre-existing conditions such as heart disease, diabetes, lung disease and/or weakened immune systems.
+			</p>
+		</div>
+	</body>
+	
+	<footer>
+	<div id="footer_info">
+		<p>Connect With Us</p>
+	</div>
+		<a href="https://www.facebook.com/">
+			<img src="facebook_logo.png" alt="Facebook logo" height="60px" width="60px">
+		</a>
+		<a href="https://www.instagram.com/">
+			<img src="instagram_logo.png" alt="Instagram logo" height="60px" width="60px">
+		</a>
+		<a href="https://twitter.com/?lang=en">
+			<img src="twitter_logo.jpg" alt="Twitter logo" height="60px" width="60px">
+		</a>
+	</footer>
+	
+</div>
+</html>
